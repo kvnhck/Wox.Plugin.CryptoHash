@@ -1,0 +1,12 @@
+﻿{
+  "ID": "4713E77CE6A24922BA51A68F95F1D769", //Plugin ID，32 bit UUID
+  "ActionKeyword": "hash", //Plugin default action keyword
+  "Name": "Hash", //Plugin name
+  "Description": "Hash input with md5, sha1, sha256, ...", //Plugin description
+  "Author": "kvnhck", //Plugin Author
+  "Version": "1.0.0", //Plugin version，must be x.x.x format
+  "Language": "csharp", //Plugin language，we support csharp,python and executable now
+  "Website": "http://www.getwox.com", //Plugin website or author website
+  "IcoPath": "Images\\pic.png", //Plugin icon, relative path to the pluign folder
+  "ExecuteFileName": "wox.plugin.cryptohash.dll" //Execution entry. Dll name for c# plugin, and python file for python plugin
+}
